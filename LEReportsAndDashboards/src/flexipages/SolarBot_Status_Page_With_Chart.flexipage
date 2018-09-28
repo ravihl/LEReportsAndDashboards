@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>cacheAge</name>
+                <value>1440</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>label</name>
+                <value>SolarBot Status Page With Chart</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>reportFilter</name>
+                <value>SolarBot__c.Id</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>reportName</name>
+                <value>SolarBot_Status_Averages</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>showRefreshButton</name>
+                <value>false</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:reportChart</componentName>
+        </componentInstances>
+        <name>main</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>SolarBot Status Page With Chart</masterLabel>
+    <pageTemplate>flexipage:recordHomeSingleColNoHeaderTemplateDesktop</pageTemplate>
+    <sobjectType>SolarBot__c</sobjectType>
+    <type>RecordPage</type>
+</FlexiPage>
